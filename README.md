@@ -4,7 +4,7 @@
 
 **[secureblue](https://secureblue.dev) underneath, [niri](https://github.com/YaLTeR/niri) + [Noctalia](https://noctalia.dev) on top.**
 
-[![build](https://github.com/raff4el/noxblue/actions/workflows/build.yml/badge.svg)](https://github.com/raff4el/noxblue/actions/workflows/build.yml)
+[![build](https://github.com/r1sq/noxblue/actions/workflows/build.yml/badge.svg)](https://github.com/r1sq/noxblue/actions/workflows/build.yml)
 [![built with BlueBuild](https://img.shields.io/badge/built%20with-BlueBuild-blue)](https://blue-build.org/)
 [![Fedora 44](https://img.shields.io/badge/Fedora-44-51a2da)](https://fedoraproject.org/)
 
@@ -30,7 +30,7 @@ screenshots, and it ships in Fedora's own repos: no COPRs.
 ## Install
 
 ```bash
-rpm-ostree rebase ostree-image-signed:docker://ghcr.io/raff4el/noxblue:latest
+rpm-ostree rebase ostree-image-signed:docker://ghcr.io/r1sq/noxblue:latest
 ```
 
 That works after an unsigned first rebase on stock Fedora Atomic. Coming from
